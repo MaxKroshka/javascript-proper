@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: bold 14px Arial, sans-serif;
+}
+
+html {
+    height: 100%;
+    background: white;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    background-size: cover;
+}
+
+#top{
+
+    padding-top: 25px;
+    height: 100px;
+    width: 400px;
+    background: #9dd2ea;
+    border: 1px solid #f68991;
+    border-radius: 100px;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 35%;
+    text-align: center;
+}
+
+
+#top h2 {
+    text-align: center;
+    font: bold 18px Arial, sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+#mid{
+
+    padding-top: 25px;
+    height: 90px;
+    width: 400px;
+    background: #9dd2ea;
+    border: 1px solid #f68991;
+    border-radius: 100px;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 35%;
+    text-align: center;
+}
+#mid h3 {
+    text-align: center;
+    font: bold 18px Arial, sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+#options {
+    height:300px;
+    width: 400px;
+    background: #8c78b2;
+    border: 1px solid #d2b933;
+    border-radius: 3px;
+    margin-top: 3%;
+    margin-left: 35%;
+    position: relative;
+}
+
+#options .options {
+    margin: 3% 3% 10px 3%;
+    height: 30px;
+    width:20px;
+    padding: 25px;
+    text-align: center;
+}
+
+#button {
+    padding: 10px;
+    position: relative;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background-color: #8ec127;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 50%;
+
+
+}

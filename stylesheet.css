@@ -1,0 +1,23 @@
+div {
+    background-color: black;
+    height: 60px;
+    width: 120px;
+    border-radius: 25%;
+    border-color: #FF1111;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.highlighted {
+    background-color: #FF1111;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.highlighted p {
+    color: black;
+}

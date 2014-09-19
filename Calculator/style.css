@@ -1,0 +1,121 @@
+
+body {
+    background-color: lightgrey;
+}
+
+#header {
+    text-align: center;
+    font-family:  monospace, serif;
+    font-size: 32px;
+    color: black;
+    margin-top: 50px;
+    border: 1px black solid;
+    background-color: olive;
+}
+
+#frame {
+    background-color: #222222;
+    color: white;
+    height: 300px;
+    width: 250px;
+    top: 100px;
+    left: 40%;
+    border: 1px solid black;
+    border-radius: 14px;
+    position: relative;
+    text-shadow: 1px 2px 1px rgba(0,0,0,0.2);
+    letter-spacing: 1px;
+
+}
+
+#screen {
+    background-color: lightslategrey;
+    width: 220px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    height: 40px;
+    font: bold 10px Arial,sans-serif;
+    text-align: right;
+
+}
+#screen input{
+    position: relative;
+    background-color: lightslategrey;
+    font: Arial;
+    font-size: 22px;
+    height: 35px;
+    border: 1px solid black;
+    left: 4px;
+    top: 4px;
+    color: black;
+    text-align: right;
+
+}
+
+.keys {
+    position: relative;
+    top: 15px;
+}
+
+.button {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 17px;
+    cursor: pointer;
+    border-top: 2px solid transparent;
+}
+
+.button.grey {
+    color: white;
+    border-bottom: black 2px solid;
+    border-top: 2px #6f6f6f solid;
+    background-color:#6f6f6f;
+}
+
+.button.red
+{
+    color:black;
+    background-color:indianred;
+    border-bottom:black 2px solid;
+}
+.button.black
+{
+    color:white;
+    background-color:#303030;
+    border-bottom:black 2px solid;
+    border-top:2px #303030 solid;
+}
+.button.yellow
+{
+    color:black;
+    background-color:yellowgreen;
+    border-bottom:black 2px solid;
+    border-top:2px yellowgreen solid;
+}
+.grey:active
+{
+    border-top:black 2px solid;
+    border-bottom:2px #6f6f6f solid;
+}
+.red:active
+{
+    border-top:black 2px solid;
+    border-bottom:indianred 2px solid;
+}
+.black:active
+{
+    border-top:black 2px solid;
+    border-bottom:#303030 2px solid;
+}
+.yellow:active
+{
+    border-top:black 2px solid;
+    border-bottom:yellowgreen 2px solid;
+}
+#frame p
+{
+    line-height:10px;
+}
